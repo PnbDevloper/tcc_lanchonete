@@ -1,0 +1,33 @@
+
+/* Estilos básicos para a navbar */
+.navbar {
+
+  overflow: hidden;
+}
+
+/* Estilo para a seta para baixo */
+.arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Estilo para os links adicionais inicialmente ocultos */
+.additional-links {
+  display: none;
+  padding-left: 15px;
+  background-color: #444;
+}
+
+/* Estilo para os links */
+.additional-links a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}

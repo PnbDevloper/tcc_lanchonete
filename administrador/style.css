@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.tamanho {
+    width: 10px;
+    height: 20px;
+}
+
+nav {
+    width: 100% ;
+    background-color: #d65106;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h2 {
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgwid {
+    width: 50px;
+    height: 50px;
+}
+.nav-logo {
+    width: 80px;
+    height: 80px;
+}
+
+
+nav ul li{
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #fff ;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+legend{
+    font-size: 15px;
+}
+
+.image-upload > input
+{
+display: none;
+}
+
+img{
+	text-align:center;	
+}
+
+.pclass {
+    color: #fff;
+}
+/*front end*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-image: url(https://img.freepik.com/fotos-gratis/hamburguer-de-vista-superior-com-batatas-fritas-em-um-saco_23-2148235095.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697241600&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .card {
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0d009c
+  }
+  
+  .container{
+      width: 350px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 20% 0;
+      box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+      padding: 50px 20px;
+  }
+
+    
+  .container2{
+    width: 350px;
+    background: transparent;
+    border-radius: 20% 0;
+    box-shadow: transparent;
+    padding: 50px 390px;
+}
+
+  
+  h2{
+      text-align: center;
+      margin: 20px;
+      color: white;
+      font-size: 25px;
+  } 
